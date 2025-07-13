@@ -62,11 +62,6 @@ As part of a team project during my 5th semester, I was responsible for:
 
 ---
 
-## 📂 GitHub Repo
-
-[🔗 Emergency Medical System - View Code](https://github.com/yourusername/emergency-medical-system)
-
----
 
 ## 💡 Future Improvements
 
