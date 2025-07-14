@@ -53,16 +53,6 @@ As part of a team project during my 5th semester, I was responsible for:
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/8e454a38-da75-495e-947f-2f6856711101" />
 
 
-
-
-
-## 🌐 Live Demo (Optional)
-
-[👉 View Live Project](https://your-live-link.com)
-
----
-
-
 ## 💡 Future Improvements
 
 - SMS & push notification alerts  
