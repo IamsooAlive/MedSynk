@@ -1,47 +1,72 @@
-<!-- Animated GIF Header (optional) -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=24D6E1&width=800&lines=🚑+Emergency+Medical+System+Mini+Project;Built+Using+Next.js+%2B+Express+%2B+MongoDB+%2B+Google+Maps+API" alt="Typing SVG" />
-</p>
+# MedSynk
+
+**MedSynk** is an emergency medical system designed to connect users in urgent situations with nearby medical assistance using modern web technologies and mapping integration.
 
 ---
 
-# 🩺 Emergency Medical System
-
-> ⚡ A real-time emergency response platform to connect patients with nearby medical facilities and ambulances using live location tracking and map integration.
-
----
-
-## 🚀 Tech Stack Used
-
-| Frontend | Backend | Database | APIs/Tools |
-|----------|---------|----------|------------|
-| Next.js  | Express.js | MongoDB | Google Maps API |
-| React    | Node.js   | Mongoose | Geolocation API |
+## 🚀 Features
+- **Real-Time Location Tracking**: Request emergency aid with responders located via Google Maps integration.  
+- **Full Stack Architecture**: Decoupled frontend (Next.js) and backend (Express.js, Node.js).  
+- **Optimized Database**: MongoDB for fast and scalable data storage.  
+- **User-Friendly Design**: Clean interfaces for both help seekers and responders.  
 
 ---
 
-## 📱 Features
-
-✅ Real-time patient request tracking  
-✅ Ambulance location shown via Google Maps  
-✅ Admin panel for hospital coordination  
-✅ REST APIs for booking, managing, and assigning ambulances  
-✅ MongoDB for storing users, requests, and medical data  
-✅ Responsive and mobile-friendly UI
+## 🛠️ Tech Stack
+- **Frontend**: Next.js (React framework)  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Maps & Geolocation**: Google Maps API  
+- **Languages**: TypeScript, JavaScript  
 
 ---
 
-## 🎯 My Contribution
+## 📂 Project Structure
+MedSynk/
+├── backend/ # Server logic (Express.js + API endpoints)
+├── frontend/ # User interfaces (Next.js)
+└── README.md # Project overview and setup guide
 
-As part of a team project during my 5th semester, I was responsible for:
-
-- 🔧 Setting up the **Express backend** and MongoDB schema
-- 📡 Implementing Google Maps integration
-- 🛠️ Handling **API routes** for user and emergency data
-- 🧪 Testing and debugging the full-stack flow
-- 📁 Documentation and code optimization
 
 ---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/koushikrai/MedSynk.git
+cd MedSynk
+```
+### 2. Install dependencies
+```bash
+Frontend
+cd frontend
+npm install
+
+Backend
+cd ../backend
+npm install
+```
+3. Configure Environment Variables
+```bash
+Create a .env file inside the backend folder and add:
+
+MONGODB_URI=<Your MongoDB connection URI>
+GOOGLE_MAPS_API_KEY=<Your Google Maps API Key>
+```
+4. Run the application
+```bash
+Backend
+cd backend
+npm run dev
+
+Frontend
+cd ../frontend
+npm run dev
+```
+
+👉 Open the app at medsynk.netlify.app
+
 
 ## 📸 Screenshots
 
