@@ -23,9 +23,9 @@
 
 ## 📂 Project Structure
 MedSynk/
-├── backend/ # Server logic (Express.js + API endpoints)
-├── frontend/ # User interfaces (Next.js)
-└── README.md # Project overview and setup guide
+├── backend/      # Server logic (Express.js + API endpoints)
+├── frontend/     # User interface (Next.js)
+└── README.md     # Project documentation
 
 
 ---
